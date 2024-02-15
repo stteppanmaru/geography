@@ -1,0 +1,113 @@
+:root {
+    --color-text: #757575;
+    --color-paragraph: #212121;
+    --color-text2: #2196f3;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: var(--color-paragraph);
+    font-family: Roboto;
+  }
+  .conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    color: var(--color-paragraph);
+  }
+  .web {
+    color: var(--color-text2);
+  }
+  .header {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+  }
+  .hero {
+    background-color: #2f303a;
+    padding: 200px 30px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 94px;
+  }
+  .hero-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.3px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+  }
+  .feature {
+    margin-bottom: 118px;
+  }
+  .feature-title {
+    color: var(--color-paragraph);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .feature-list {
+    display: flex;
+  }
+  .feature-text {
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
+  .photo {
+    margin-bottom: 94px;
+  }
+  .photo-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+  }
+  .title-photo {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
